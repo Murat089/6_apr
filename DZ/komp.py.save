@@ -1,0 +1,14 @@
+print('Выбираем компьютер')
+ram = int(input('Оперативная память: '))
+hdd = int(input('Размер диска: '))
+price = int(input('Цена: '))
+sost = 'новый'
+
+if ram >= 4 and ram <= 8 or hdd >= 256:
+    print('Done')
+
+if price <= 1000  sost = 'новый'
+    print('Done')
+
+else:
+    print('No')

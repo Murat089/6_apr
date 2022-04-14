@@ -1,0 +1,11 @@
+a = 17391/17
+b = 546/17
+c = 934/17
+
+if a > b and a > c:
+elif a < b and a < c:
+    print('otvet A')
+elif b > a and b > c or b < a and b < c:
+    print('otvet B')
+elif c > a and c > b or c < a and c < b:
+    print('otvet C')

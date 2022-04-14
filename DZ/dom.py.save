@@ -1,0 +1,15 @@
+print('Выбор дома')
+dom = input('Введите район:' )
+sotyh = int(input('Введите площадь участка: '))
+summa = 50000
+kirpich = True 
+peskoblok = True
+
+if dom == ортосай or dom == байтик or dom == чонарык: 
+    print('Ok1')
+elif kirpich == True and sotyh <= 4 and summaint == 50000: 
+    print('Ok2')
+elif peskoblok == True and sotyh <= 4 and summa == 45000:
+    print('ok3')
+else:
+    print('No')
